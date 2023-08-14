@@ -1,0 +1,84 @@
+body {
+    background-color: #073b4c;
+   }
+   
+   .body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+   }
+   
+   h2 {
+
+    animation: 1s blink linear infinite;
+    display: flex;
+    justify-content: center;
+   }
+
+.birthdayCard:hover .happy {
+ visibility: hidden;
+}
+
+@keyframes blink {
+ 0% {
+  color: white;
+ }
+
+ 20% {
+  color: yellow;
+ }
+
+ 40% {
+  color: greenyellow;
+ }
+
+ 60% {
+  color: red;
+ }
+
+ 80% {
+  color: hotpink;
+ }
+
+ 100% {
+  color: blue;
+ }
+}
+footer{
+ font-size: 10px;
+ color: white;
+ position: absolute;
+ bottom: 0px;
+}
+footer a{
+ color: white;
+}
+
+#sachin{
+    width:300px;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding:10px;
+    margin:10px;
+    box-shadow: 0 4px 8px;
+    transition: .3s;
+
+}
+
+#sachin:hover{
+    box-shadow: 0 8px 16px 0;
+}
+
+#sachin{
+    height: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:2px solid black
+}
+@media screen and(max-width:767px).body{
+    padding-top:300px;
+    fix-direction:column
+
+}
